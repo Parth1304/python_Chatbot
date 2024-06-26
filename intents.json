@@ -1,0 +1,230 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "Greetings!",
+                "Nice to meet you!",
+                "Hello! How's it going?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Take care!",
+                "Goodbye! Have a great day!",
+                "Until next time!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "Glad I could assist!",
+                "You're welcome!",
+                "No problem!"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?"
+            ],
+            "responses": [
+                "We sell coffee and tea",
+                "We have coffee and tea",
+                "Our menu includes coffee and tea",
+                "You can choose from coffee and tea",
+                "Our offerings are coffee and tea"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal",
+                "You can pay with VISA, Mastercard, and Paypal",
+                "We support VISA, Mastercard, and Paypal payments",
+                "Payment methods include VISA, Mastercard, and Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?"
+            ],
+            "responses": [
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days",
+                "You'll receive your delivery in 2-4 days",
+                "Expect delivery within 2-4 days",
+                "Shipping time is 2-4 days"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison.",
+                "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.",
+                "Why don't skeletons fight each other? They don't have the guts.",
+                "I used to play piano by ear, but now I use my hands.",
+                "Why did the scarecrow win an award? Because he was outstanding in his field."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like today?",
+                "Will it rain tomorrow?",
+                "Is it going to be sunny?"
+            ],
+            "responses": [
+                "The weather today is sunny and clear.",
+                "Tomorrow is forecasted to be rainy.",
+                "It's sunny outside right now!",
+                "Expect partly cloudy skies today."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you located?",
+                "What's your address?",
+                "How can I find you?"
+            ],
+            "responses": [
+                "We are located at 123 Main Street, Anytown, USA.",
+                "Our address is 456 Center Avenue, Your City, Your Country.",
+                "You can find us at 789 Downtown Boulevard, Nearby City, Your State."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your hours?",
+                "When are you open?",
+                "What time do you close?"
+            ],
+            "responses": [
+                "We are open Monday to Friday from 9:00 AM to 5:00 PM.",
+                "Our hours are 10:00 AM to 6:00 PM, Monday through Saturday.",
+                "We close at 7:00 PM every day except Sundays, when we close at 5:00 PM."
+            ]
+        },
+        {
+            "tag": "tech_support",
+            "patterns": [
+                "My device isn't working.",
+                "I need technical assistance.",
+                "Can you help with a tech problem?"
+            ],
+            "responses": [
+                "Sure, I can help with that. Please describe the issue.",
+                "Let's see what the problem is. Please provide more details.",
+                "I'll do my best to assist you with your technical issue."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "Can you check my order status?",
+                "I want to know about my order."
+            ],
+            "responses": [
+                "Let me check the status of your order for you.",
+                "Could you please provide your order number so I can check?",
+                "I'll look up your order right away."
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "How much does it cost?",
+                "What are your prices?",
+                "Can you tell me about your pricing?"
+            ],
+            "responses": [
+                "Our prices vary depending on the product. Could you specify what you're interested in?",
+                "The cost depends on the item. What specifically are you looking to purchase?",
+                "Prices range based on the product. What would you like pricing information on?"
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "I have feedback for you.",
+                "Can I give you some feedback?",
+                "I want to share my experience."
+            ],
+            "responses": [
+                "We appreciate your feedback! Please share your thoughts with us.",
+                "Your feedback is valuable to us. Feel free to share your experience.",
+                "We'd love to hear your feedback. Please let us know how we're doing."
+            ]
+        },
+        {
+            "tag": "complaints",
+            "patterns": [
+                "I have a complaint.",
+                "I want to file a complaint.",
+                "Can I speak to someone about a complaint?"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Please tell me more so I can assist you.",
+                "Let me address your concern. Please provide details about the issue.",
+                "I'll do my best to resolve your complaint. Please explain the situation."
+            ]
+        
+        
+        },
+        {
+                "tag": "general",
+                "patterns": [
+                    "What can you do?",
+                    "Ask me anything!",
+                    "Can you answer any question?"
+                ],
+                "responses": [
+                    "Yes, I'll do my best to answer any question you have.",
+                    "Feel free to ask me anything and I'll try to help.",
+                    "I'm here to assist you with any questions or information you need."
+                ]
+        }
+    ]
+}
