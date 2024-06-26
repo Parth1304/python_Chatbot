@@ -42,7 +42,7 @@ class Chatbox {
         let msg1 = { name: "user", message: text1 };
         this.messages.push(msg1);
 
-        fetch($SCRIPT_ROOT + '/predict', {
+        fetch('https://python-chatbot-k4ue.onrender.com/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
